@@ -10,4 +10,5 @@ To run examples:
 Additional materials:
 
 [Top 18 Most Common Angularjs Developer Mistakes](https://www.toptal.com/angular-js/top-18-most-common-angularjs-developer-mistakes)
+
 [Angularjs Performance Large Applications](https://www.airpair.com/angularjs/posts/angularjs-performance-large-applications)
