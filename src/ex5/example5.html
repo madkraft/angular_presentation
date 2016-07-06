@@ -1,0 +1,42 @@
+<h1>Example 5</h1>
+<h3>Minimize number of digest cycles with ng-model-options</h3>
+
+
+<div class="example">
+    <h4>Regular input</h4>
+    <input
+        type="text"
+        ng-model="ctrl.searchQuery1">
+    <p>{{ ctrl.searchQuery1 }}</p>
+</div>
+
+
+
+<div class="example">
+    <h4>Update on: 'blur'</h4>
+    <input
+        type="text"
+        ng-model="ctrl.searchQuery2"
+        ng-model-options="{ updateOn: 'blur' }">
+</div>
+
+
+
+<div class="example">
+    <h4>Debounce</h4>
+    <input
+        type="search"
+        ng-model="ctrl.searchQuery3"
+        ng-model-options="{ debounce: 1000 }">
+</div>
+
+
+
+<div class="example">
+    <h4>Debounce + blur combo</h4>
+    <input
+        type="search"
+        ng-model="ctrl.searchQuery4"
+        ng-model-options="{ updateOn: 'default blur', debounce: { 'default': 1000, 'blur': 0 } }">
+</div>
+

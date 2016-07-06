@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>Watchers Manual</title>
+    <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body>
+
+    <ul>
+        <li><a ui-sref="home">Home</a></li>
+        <li><a ui-sref="example1">Example 1</a></li>
+        <li><a ui-sref="example2">Example 2</a></li>
+        <li><a ui-sref="example3">Example 3</a></li>
+        <li><a ui-sref="example4">Example 4</a></li>
+        <li><a ui-sref="example5">Example 5</a></li>
+        <li><a ui-sref="example6">Example 6</a></li>
+    </ul>
+
+
+    <div ui-view>
+
+        <div class="quote">
+            <q>With great power comes great responsibility</q>
+            <cite> - Uncle Ben</cite>
+        </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="src/module.js"></script>
+    <script type="text/javascript" src="src/ex1/ex1.controller.js"></script>
+    <script type="text/javascript" src="src/ex2/ex2.controller.js"></script>
+    <script type="text/javascript" src="src/ex3/ex3.controller.js"></script>
+    <script type="text/javascript" src="src/ex4/ex4.controller.js"></script>
+    <script type="text/javascript" src="src/ex5/ex5.controller.js"></script>
+    <script type="text/javascript" src="src/ex6/ex6.controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<h1>Example 3</h1>
+<h3>One-time binding</h3>
+
+
+<div class="example">
+    <h4>Unbinding model</h4>
+    <div>{{::ctrl.name}}</div>
+    <div>{{::ctrl.i18n.label}}</div>
+</div>
+
+<div class="example">
+    <h4>Unbinding ng-class</h4>
+    <div ng-class="::{ red: ctrl.colors.red }">One time red</div>
+    <button ng-click="ctrl.changeColor()">Remove red</button>
+</div>
